@@ -4,3 +4,18 @@
 body {
     font-family: "Tahoma";
 }
+.single-hero-slide{
+    height: 400px;
+}
+.quick-sell-title{
+    font-size: 25px;
+}
+.quick-sell-content, .quick-sell-title{
+    color: #fff;
+}
+.title{
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
