@@ -1,11 +1,13 @@
+
 .logo > img{
-    width: 250px;
+    width: 200px;
 }
 div#stickyHeader {
     background-color: rgba(0, 0, 0, 0.9);
 }
 body {
     font-family: "Tahoma";
+    background: #e9ebee;
 }
 .single-hero-slide{
     height: 400px;
@@ -32,10 +34,11 @@ body {
 }
 .video_vitri {
     border: 2px solid #dddddd;
-    background: rgba(0, 0, 0, 0.8);;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 2px;
 }
 .hero-area{
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .div-content{
@@ -48,3 +51,24 @@ body {
 .breakpoint-off .classynav ul li .dropdown {
     width: 250px;
 }
+
+.image-cover{
+    text-align: center;
+    margin-top: 5px;
+    /* background: #e9ebee; */
+}
+.image-cover > img{
+    height: 560px;
+}
+.icon.zalo{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.icon > img{
+    width: 25px;
+    background-color: white;
+    border-radius: 15%;
+}
+    

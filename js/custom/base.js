@@ -1,7 +1,7 @@
 
 // $("#header").load("base.html"); 
 $("#header" ).append( `
-<div class="main-header-area" id="stickyHeader">
+<div class="main-header-area" id="stickyHeader" style="height: 60px;">
 <div class="classy-nav-container breakpoint-off">
     <!-- Classy Menu -->
     <nav class="classy-navbar justify-content-between" id="southNav">
@@ -33,7 +33,7 @@ $("#header" ).append( `
                             <li><a href="the-grand-villas.html">The Valencia</a></li>
                             <li><a href="the-grand-villas.html">River Park 1</a></li>
                             <li><a href="the-grand-villas.html">The Elite</a></li>
-                            <li><a href="the-grand-villas.html">The Stella</a></li>
+                            <li><a href="the-stella.html">The Stella</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Thư viện</a></li>
@@ -58,4 +58,21 @@ $("#header" ).append( `
 </div>
 </div>
 ` );
+$( document ).ready(function() {
+    // window.scrollTo(0, 10000);
+   
+      $("#btnClick").on("click",()=>{
+        var element = document.getElementById('abc123');
+        const offset = 45;
+const bodyRect = document.body.getBoundingClientRect().top;
+const elementRect = element.getBoundingClientRect().top;
+const elementPosition = elementRect - bodyRect;
+const offsetPosition = elementPosition - offset;
 
+window.scrollTo({
+  top: offsetPosition,
+  behavior: 'smooth'
+});
+        // document.getElementById('abc123').scrollIntoView();
+      })
+});

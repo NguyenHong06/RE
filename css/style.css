@@ -479,7 +479,7 @@ img {
   .main-header-area .classy-nav-container {
     background-color: transparent; }
   .main-header-area .classy-navbar {
-    height: 90px;
+    height: 60px;
     padding: .5em 60px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .main-header-area .classy-navbar {
@@ -1448,7 +1448,7 @@ img {
   .single-blog-area .post-content {
     position: relative;
     z-index: 1;
-    padding: 50px 0; }
+    padding: 15px 0; }
     .single-blog-area .post-content .post-date a {
       font-size: 14px;
       color: #947054;
@@ -1469,7 +1469,8 @@ img {
           color: #aaa8a8;
           display: inline-block; }
     .single-blog-area .post-content p {
-      margin-bottom: 50px; }
+      margin-bottom: 10px; 
+    }
 
 .search-widget-area form {
   position: relative;
